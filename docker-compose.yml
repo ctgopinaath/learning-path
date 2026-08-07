@@ -1,0 +1,6 @@
+services:
+  cloud-learning-path:
+    build: .
+    ports:
+      - "8080:80"
+    restart: unless-stopped
